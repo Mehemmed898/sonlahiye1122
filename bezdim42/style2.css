@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  background: #2a2734;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+}
+
+.container {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 60s infinite forwards linear;
+}
+
+.image {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+@keyframes rotate360 {
+  from {
+
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.image:nth-child(1) {
+  background-image: url("./tur.jpeg");
+  transform: rotateY(0deg) translateZ(430px);
+}
+
+.image:nth-child(2) {
+  background-image: url("./final.jpeg");
+  transform: rotateY(40deg) translateZ(430px);
+}
+
+.image:nth-child(3) {
+  background-image: url("./t2.jpeg");
+  transform: rotateY(80deg) translateZ(430px);
+}
+
+.image:nth-child(4) {
+  background-image: url("./tuture.jpeg");
+  transform: rotateY(120deg) translateZ(430px);
+}
+
+.image:nth-child(5) {
+  background-image: url("./boyj.jpeg");
+  transform: rotateY(160deg) translateZ(430px);
+}
+
+.image:nth-child(6) {
+  background-image: url("./sekil2.jpg");
+  transform: rotateY(200deg) translateZ(430px);
+}
+
+.image:nth-child(7) {
+  background-image: url("./sekil4.jpg");
+  transform: rotateY(240deg) translateZ(430px);
+}
+
+.image:nth-child(8) {
+  background-image: url("./sekil6.jpg");
+  transform: rotateY(280deg) translateZ(430px);
+}
+
+.image:nth-child(9) {
+  background-image: url("./Başlangıç.jpg");
+  transform: rotateY(320deg) translateZ(430px);
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.video-container:after {
+  content: '';
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+/* .content {
+  z-index: 2;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.showcase {
+  margin-top: 600px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+  margin-bottom:200px;
+  position: relative;
+  width: 1480px;
+}
+
+.container{
+margin-bottom: 700px;
+} 
+.esasdiv{
+position:absolute;
+top: 0;
+}
+/* a{
+margin-top: 2000px;
+} */
+.esasdiv1 div{
+  padding: 33px 33px 33px;
+}
+.esasdiv1{
+  margin-top: 200px;
+  padding: 33px 33px 33px;
+  justify-content: space-between;
+  display: flex;
+  width: 1140px;
+align-items: center;
+margin-left: 105px;
+}
+
+
+.div1 img{
+  width: 133px;
+  height: 155px;
+}
+
+.div1{
+  border: 2px solid aqua;
+  width: 175px;
+  height: 410px;
+  border-radius: 12px;
+}
+
+.div1 img{
+place-items: center;
+  display: grid;
+}
+button:hover{
+  background-color: blue;
+}
+
+.div2 img{
+  width: 133px;
+  height: 155px;
+}
+
+.div2{
+  border: 2px solid aqua;
+  width: 175px;
+  height: 410px;
+  border-radius: 12px;
+}
+
+.div2 img{
+place-items: center;
+  display: grid;
+}
+button:hover{
+  background-color: blue;
+}
+
+.div3 img{
+  width: 133px;
+  height: 155px;
+}
+
+.div3{
+  border: 2px solid aqua;
+  width: 175px;
+  height: 410px;
+  border-radius: 12px;
+}
+
+.div3 img{
+place-items: center;
+  display: grid;
+}
+.esasdiv1 div:hover{
+  background-color: chocolate;
+}
+.div4 img{
+  width: 133px;
+  height: 155px;
+}
+
+.div4{
+  border: 2px solid aqua;
+  width: 175px;
+  height: 410px;
+  border-radius: 12px;
+}
+
+.div4 img{
+place-items: center;
+  display: grid;
+}
+
+.div5 img{
+  width: 133px;
+  height: 155px;
+}
+
+.div5{
+  border: 2px solid aqua;
+  width: 175px;
+  height: 410px;
+  border-radius: 12px;
+}
+
+.div5 img{
+place-items: center;
+  display: grid;
+}
+
+.esasdiv1 button{
+  border-radius: 7px;
+}
+.esasdiv1{
+  background-color: silver;
+  border-radius: 12px;
+}
+h1{
+  font-size: 100px;
+}
+.esasdiv1 p{
+  color: black;
+}
+.wave span {
+  font-family: "Alfa Slab One", cursive;
+  display: inline-block;
+  animation: wave-anim 1s infinite;
+  animation-delay: calc(0.1s * var(--item));
+}
+
+@keyframes wave-anim {
+
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+.wave{
+  font-size: 100px;
+  background-color: burlywood;
+  width: 390px;
+  margin-left: 555px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+
+
+
